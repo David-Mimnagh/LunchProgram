@@ -1,0 +1,10 @@
+ NAME,TYPE,PRICE,PERCENTAGE
+KFC,Fastfood/Chicken/Warm,7,5
+McDonalds,Fastfood/Burger/Chicken/Warm,6,5
+Greggs,Warm,3,10
+Tesco,Store/Sandwich,3,30
+Sainsburys,Store/Sandwich,3,30
+M&S,Store/Sandwich,5,5
+Bistro,Fastfood/Burger/Warm,4,5
+ChinaBuffetKing,Warm/Chinese,7,5
+Subway,Warm/Sandwich,5,5

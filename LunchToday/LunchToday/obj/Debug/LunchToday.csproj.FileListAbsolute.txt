@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\bin\Debug\LunchToday.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\bin\Debug\LunchToday.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\bin\Debug\LunchToday.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\obj\Debug\LunchToday.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\obj\Debug\LunchToday.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\obj\Debug\LunchToday.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\bin\Debug\LunchToday.exe.manifest
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\bin\Debug\LunchToday.application
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\obj\Debug\LunchToday.exe.manifest
+C:\Users\User\Documents\Visual Studio 2015\Projects\LunchToday\LunchToday\obj\Debug\LunchToday.application

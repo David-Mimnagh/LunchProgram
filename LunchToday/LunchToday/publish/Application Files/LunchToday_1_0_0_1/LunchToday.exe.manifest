@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LunchToday.exe" version="1.0.0.1" publicKeyToken="42dc65b39dcee0ac" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LunchToday" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LunchToday.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LunchToday.exe" size="10664">
+      <assemblyIdentity name="LunchToday" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zmwRrYPTtSzFwslyIO82BY4wcf+AW9/Y93PlQjxLgeI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LunchToday.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=USER-PC\User" issuerKeyHash="ca7651b813badd92faf576ee56bb51500b0aca2b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XT9JUE1uTwg33ic5Yvz/wkOKoUj6CLQCiqagKIQc610=</DigestValue></Reference></SignedInfo><SignatureValue>ihHWQuNlkZO6T6heJ2QY//VcZOad2jrSZy9m2AoJP5VuNhI6j4CaPW2JYf81KWBUS1qXikrOBzMKdlSuYXIRM6xkjOeVGg6eTOl2ztk5JsHXWYixJf+jzuWXMfiyawPwSUi4p4bwd0cJbRVeInvXnLm5yiOAEpEgyIdN8GapHQ4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vKMSdkdYvsaDDPcPxR4PN7HaAMNjn7hPGkIRoEKYmLaxPPLX7z5LYq33f8EpHt/RXdhD/u2OX4Go4HyYIW4oGROxN3EKDXIRwtWfGmvVSex2mpkBbJIENf2r/7El3sl4LitlhD70WNgXIsEjw0bscSBVEPVj86EbvhmUKXbVGVM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5deb1c8428a0a68a02b408fa48a18a43c2fffc623927de37084f6e4d50493f5d" Description="" Url=""><as:assemblyIdentity name="LunchToday.exe" version="1.0.0.1" publicKeyToken="42dc65b39dcee0ac" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=USER-PC\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Yd8M06+uFtPsLHqhk9MOxWhXZGKmSMYb7wlcGshT068=</DigestValue></Reference></SignedInfo><SignatureValue>QxXSLNe1/gVVt80Cyxx+cb8MvdeIc/LR9DZMPCMuSNFGHeEyuUsn2wlvf6tRq+PbdgoVRzZ7clT0ZEt2tajn+YyLIy+fOD+qqa4Ax4vBDITlldISFgn8TSTur60FEzsT/WRvl1YZZBwKFz7eXGA1DgcD2wgWPSdQVXeKAyyAV60=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vKMSdkdYvsaDDPcPxR4PN7HaAMNjn7hPGkIRoEKYmLaxPPLX7z5LYq33f8EpHt/RXdhD/u2OX4Go4HyYIW4oGROxN3EKDXIRwtWfGmvVSex2mpkBbJIENf2r/7El3sl4LitlhD70WNgXIsEjw0bscSBVEPVj86EbvhmUKXbVGVM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQWLZqzQnY6a1LHypE/RRb1jANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAVQBTAEUAUgAtAFAAQwBcAFUAcwBlAHIwHhcNMTcwMjExMTYwODMyWhcNMTgwMjExMjIwODMyWjAjMSEwHwYDVQQDHhgAVQBTAEUAUgAtAFAAQwBcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALyjEnZHWL7Ggwz3D8UeDzex2gDDY5+4TxpCEaBCmJi2sTzy1+8+S2Kt93/BKR7f0V3YQ/7tjl+BqOB8mCFuKBkTsTdxCg1yEcLVnxpr1UnsdpqZAWySBDX9q/+xJd7JeC4rZYQ+9FjYFyLBI8NG7HEgVRD1Y/OhG74ZlCl21RlTAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJffUlaVxiRGwh9KYRcfovOQFsdm6nDF5/tbWUpLYJ/t/LVEyvBGGRZiN0noYZrvCaTbvBieM2hno8GxDvtjCQDgdAOCJB3nlXSXH2kLccOqUFfJpVTuHydoN/kE6llrBYtzHH3mKMQX0OnqpsWi+X7KlrrHzBXJ6LzHfjJAgxaE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
